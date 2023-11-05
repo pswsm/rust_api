@@ -1,0 +1,6 @@
+-- Your SQL goes here
+create table cities (
+    id int primary key, -- Un numero arbitrari
+    name text not null, -- Pex: Barcelona, L'Hospitalet de Llobregat...
+    short_name text -- Pex: BCN, LH, TGN...
+);
